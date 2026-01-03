@@ -17,7 +17,7 @@ from telegram.ext import (
 import openai
 
 # -------- CONFIG --------
-BOT_TOKEN = os.getenv("8473414818:AAHOuh0kvy10R1iGmXI5NanCsKvY8TPz8Ws")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 openai.api_key = OPENAI_API_KEY
